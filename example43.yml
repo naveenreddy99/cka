@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: pod-jxc
+  name: pod-jxc
+spec:
+  containers:
+  - image: redis:alpine
+    name: pod-jxc
+  
+  securityContext :
+    runAsUser : 1000
+    runAsGroup : 3000
+    fsGroup : 2000
+      

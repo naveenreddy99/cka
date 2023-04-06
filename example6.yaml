@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2023-04-03T10:04:48Z"
+  labels:
+    tier: web
+  name: web-load-5461
+  namespace: default
+  
+spec:
+  containers:
+  - image: nginx:1.17
+    imagePullPolicy: IfNotPresent
+    name: web-load-5461
+    

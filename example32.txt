@@ -1,0 +1,6 @@
+178  echo -n 'admin' | base64 > username.txt
+  179  echo -n 'password123' | base64 > password.txt
+  180  g get secrets
+  181  g create secret generic db-user-pass --from-file=./username.txt --from-file=./password.txt
+  182  g get secrets
+  183  g describe secrets db-user-pass

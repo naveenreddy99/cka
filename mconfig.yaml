@@ -1,0 +1,24 @@
+Welcome to Ubuntu 20.04.5 LTS (GNU/Linux 5.15.0-1026-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Apr  6 09:03:34 UTC 2023
+
+  System load:  0.37               Users logged in:          1
+  Usage of /:   50.4% of 19.31GB   IPv4 address for cni0:    10.244.1.1
+  Memory usage: 13%                IPv4 address for docker0: 172.17.0.1
+  Swap usage:   0%                 IPv4 address for ens5:    172.31.26.246
+  Processes:    141
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+143 updates can be applied immediately.
+113 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+
